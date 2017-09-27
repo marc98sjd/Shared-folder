@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    	<h1>Consolas.</h1>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <p id="demo3"></p>
+
+        <script> //puedes poner <script type="text/javascript" src="ruta del archivo"> para escribir el codigo js aparte 
+        	var vconsola;
+        	vconsola="Xbox";
+        	if(vconsola=="Xbox"){
+        		document.getElementById("demo").innerHTML = "Soy Xboxer";
+        		vconsola="PlayStation";
+        	}
+        	else if(vconsola=="PlayStation"){
+        		document.getElementById("demo1").innerHTML = "Soy Sonyer";
+        		vconsola="Switch";
+        	}
+        	else if(vconsola=="Switch"){
+        		document.getElementById("demo2").innerHTML = "Soy Nintendero";
+        		vconsola="cualquier cosa";
+        	}
+        	else{
+        		document.getElementById("demo3").innerHTML = "naaaaaaah!! Yo soy PCGamer!";
+        	}
+
+        </script>
+
+    </body>
+</html>
