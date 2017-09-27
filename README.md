@@ -1,2 +1,0 @@
-# Shared-folder
-cole-casa
