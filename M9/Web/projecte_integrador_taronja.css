@@ -1,0 +1,54 @@
+header{
+	color: black;
+	text-align: center;
+	border-radius: 100px;
+	font-size: 110px;
+	background-image:url("limon.jpg");
+}
+
+body{
+	background-color: #FFF669;
+}
+#img_naranja{
+	border: 0px;
+	width: 1000px;
+	height: 440px;
+	border-radius: 20px;
+}
+#span1{
+	
+	line-height:normal;
+ 	font-size:20px;
+ 	margin:0;
+ 	padding:0;
+ 	background:#646464;
+ 	color:white;
+ 	font-style:italic;
+ 	height:0;
+ 	text-align: center;
+ 	margin-bottom:10px;
+ 	width: 30px;
+}
+#span2{
+	color: white;
+	background:rgba(0, 0, 0, 0.6);
+ 	display:block;
+ 	padding:3px;
+ 	text-shadow:0 0 15px white;
+ 	width: 1000px;
+ 	border-radius: 5px;
+ 	margin-bottom: 3px;
+}
+#caja{
+	float: left;
+}
+ul{
+	float: left;
+	font-size: 20px;
+}
+button{
+	margin-top: 70px;
+	margin-left: 240px;
+	border-radius: 10px;
+	font-size: 20px;
+}

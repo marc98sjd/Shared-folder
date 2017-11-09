@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>SafeFrame Container</title>
+  </head>
+  <body topmargin="0" marginwidth="0" marginheight="0" leftmargin="0">
+    <script>
+(function(){var b=this;var f=String.prototype.trim?function(a){return a.trim()}:function(a){return a.replace(/^[\s\xa0]+|[\s\xa0]+$/g,"")},g=function(a,c){return a<c?-1:a>c?1:0};var k;a:{var l=b.navigator;if(l){var m=l.userAgent;if(m){k=m;break a}}k=""};var ba=function(a,c){var h=aa;return Object.prototype.hasOwnProperty.call(h,a)?h[a]:h[a]=c(a)};var ca=-1!=k.indexOf("Opera"),n=-1!=k.indexOf("Trident")||-1!=k.indexOf("MSIE"),da=-1!=k.indexOf("Edge"),p=-1!=k.indexOf("Gecko")&&!(-1!=k.toLowerCase().indexOf("webkit")&&-1==k.indexOf("Edge"))&&!(-1!=k.indexOf("Trident")||-1!=k.indexOf("MSIE"))&&-1==k.indexOf("Edge"),q=-1!=k.toLowerCase().indexOf("webkit")&&-1==k.indexOf("Edge"),t=function(){var a=b.document;return a?a.documentMode:void 0},u;a:{var v="",w=function(){var a=k;if(p)return/rv\:([^\);]+)(\)|;)/.exec(a);if(da)return/Edge\/([\d\.]+)/.exec(a);if(n)return/\b(?:MSIE|rv)[: ]([^\);]+)(\)|;)/.exec(a);if(q)return/WebKit\/(\S+)/.exec(a);if(ca)return/(?:Version)[ \/]?(\S+)/.exec(a)}();w&&(v=w?w[1]:"");if(n){var x=t();if(null!=x&&x>parseFloat(v)){u=String(x);break a}}u=v}var y=u,aa={},z=function(a){return ba(a,function(){for(var c=0,h=f(String(y)).split("."),S=f(String(a)).split("."),fa=Math.max(h.length,S.length),r=0;0==c&&r<fa;r++){var d=h[r]||"",e=S[r]||"";do{d=/(\d*)(\D*)(.*)/.exec(d)||["","","",""];e=/(\d*)(\D*)(.*)/.exec(e)||["","","",""];if(0==d[0].length&&0==e[0].length)break;c=g(0==d[1].length?0:parseInt(d[1],10),0==e[1].length?0:parseInt(e[1],10))||g(0==d[2].length,0==e[2].length)||g(d[2],e[2]);d=d[3];e=e[3]}while(0==c)}return 0<=c})},A;var B=b.document;A=B&&n?t()||("CSS1Compat"==B.compatMode?parseInt(y,10):5):void 0;var C;if(!(C=!p&&!n)){var D;if(D=n)D=9<=Number(A);C=D}C||p&&z("1.9.1");n&&z("9");var E=p||q||n&&z(11);var ea=/^([^;]+);(\d+);([\s\S]*)$/;try{var F=ea.exec(window.name);if(null===F)throw Error("Cannot parse serialized data");var G=+F[2],H=F[3];if(G>H.length)throw Error("Cannot parse serialized data");var I={b:F[1],content:H.substr(0,G),a:H.substr(G)},J;var K=window.location.hash;if(K){var L=K.match(/[&#]eid=([\d,]+)/);J=L?L[1].split(","):[]}else J=[];var M=J;M.indexOf&&0<=M.indexOf("21060230")||!E||(window.name="");var N=JSON.parse(I.a);N.goog_safeframe_hlt&&(b.goog_safeframe_hlt=N.goog_safeframe_hlt);N._context&&(b.AMP_CONTEXT_DATA=N._context);b.sf_={v:I.b,exp:M,cfg:N};var O=I.content,P=window;if(E){var Q=P.document;Q.open("text/html","replace");Q.write(O);Q.close()}else{var R=O,T;if(T=n&&z(7)&&!z(10)){var U=navigator.userAgent.match(/Trident\/([0-9]+.[0-9]+)/);T=6>(U?parseFloat(U[1]):0)}var V;if(V=T)a:{for(var W=0;W<R.length;++W)if(127<R.charCodeAt(W)){V=!0;break a}V=!1}if(V){for(var X=unescape(encodeURIComponent(R)),ha=Math.floor(X.length/2),Y=[],Z=0;Z<ha;++Z)Y[Z]=String.fromCharCode(256*X.charCodeAt(2*Z+1)+X.charCodeAt(2*Z));1==X.length%2&&(Y[ha]=X.charAt(X.length-1));R=Y.join("")}P.goog_content=R;P.location.replace("javascript:window.goog_content")}}catch(a){};}).call(this);
+    </script><script src="container_data_002/ext.js"></script><script>var viewReq = new Array();function vu(u) {var i=new Image();i.src=u.replace("&amp;","&");viewReq.push(i);}</script><script>vu("https://securepubads.g.doubleclick.net/pcs/view?xai\x3dAKAOjst4quacpBhoYvlHYdTBTSHDb8EKy1_4-F7IN11UpnM5V5hrSPBktnN8EudEU23WqRslCumpPyRmLHaovuByGvufNyMdRlPg6M1WDpE21npnB8J9JsqMtYIaF55bgdU9evoHriR859dJlQI92NmmUT6EpwGf3ry1Gqh96qznO-4FW4aoXVPlM-UT6io2drnMbdkUUm8DYjXfpEiqqYKvqQzhZSLNlMZ4CXUxHGt8_dP6QmbaIz3KVMNt3e43e8cHGPjvD3OFOn5uow\x26sig\x3dCg0ArKJSzEoE-djQEMFcEAE\x26urlfix\x3d1\x26adurl\x3d")</script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing:border-box}
+h2 {font-family: 'Segoe UI', Arial, sans-serif; font-weight: 400;padding:0 5px; margin: 5px}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+
+#adcontainer {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    background-color:#F1F1F1;
+    
+   }
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+</style>
+
+
+<a href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsuKi5XXa7vrG-BMXdrpIV5q-fi6FeIOfG1n95JPhIXIss5mkoeT-O1Jq7hyWEYkBYOOc3RUOfdq6e4gUENy5wYXk4uNSRTICb2luckrcC4HO4fLmRHpSMUz0HX0lYtE40SwqwjKyF9Y96nmaOO_Qe1pT2fqo8W3l3hEHWyX1nVp0duNcFV-LgVJMJxqhC5uzTWbk-t47OwFLzNlo-ek_Y4ZHgv9oeNlkqbPHiHR059CPhxKtSTuRuCMN0A46_L7xQQ06PajDw&amp;sig=Cg0ArKJSzEvCsOJoBkeIEAE&amp;urlfix=1&amp;adurl=https://www.w3schools.com/howto/howto_js_slideshow.asp" target="_blank&quot;">
+<div id="adcontainer" style="height:250px;overflow:hidden">
+<h2>Learn How To Create an Image Slideshow</h2>
+<div class="slideshow-container">
+
+<div class="mySlides fade" style="display: none;">
+  <img src="container_data_002/img_nature_wide.jpg" style="width:100%;">
+</div>
+
+<div class="mySlides fade" style="display: none;">
+  <img src="container_data_002/img_fjords_wide.jpg" style="width:100%;">
+</div>
+
+<div class="mySlides fade" style="display: block;">
+  <img src="container_data_002/img_mountains_wide.jpg" style="width:100%;">
+</div>
+
+</div>
+</div>
+</a>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    slides[slideIndex-1].style.display = "block";  
+    setTimeout(showSlides, 10000); // Change image every 2 seconds
+}
+</script>
+
+
+ 
+
+<script src="container_data_002/osd_listener.js"></script><script type="text/javascript">osdlfm(-1,'','BcCEIh9MBWoHxDKvDzAb2t6GQDgAAAAAQATgByAEJwAIC4AIA4AQBoAYW0ggGCILhQBAB','',2078795685,true,'ud\x3d1\x26la\x3d1\x26alp\x3dxai\x26alh\x3d4194219857\x26',3,'CAASSeRoko2tjnTVAaDHnZK0UxBd-fRy93dyCACZcn6S10Pq4Al4YyjqRnMTYMEV1ywSk8xBdhBLY1_hOg17YcdPkuQsWX7B8bVlIcQ','//pagead2.googlesyndication.com/activeview?avi\x3dBcCEIh9MBWoHxDKvDzAb2t6GQDgAAAAAQATgByAEJwAIC4AIA4AQBoAYW0ggGCILhQBAB\x26cid\x3dCAASSeRoko2tjnTVAaDHnZK0UxBd-fRy93dyCACZcn6S10Pq4Al4YyjqRnMTYMEV1ywSk8xBdhBLY1_hOg17YcdPkuQsWX7B8bVlIcQ');</script><script>if (window.top && window.top.postMessage) {window.top.postMessage('{"googMsgType":"adpnt"}','*');}</script><div style="top:0;left:0;width:970px;height:250px;background:initial !important;position:absolute !important;max-width:100% !important;max-height:100% !important;pointer-events:none !important;image-rendering:-moz-crisp-edges !important;z-index:2147483647;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAWBAMAAACrl3iAAAAABlBMVEUAAAD+AciWmZzWAAAAAnRSTlMAApidrBQAAAB+SURBVBjTbZEBDsAwCALhB/7/tUtA0SZr4zqz0yEF/he99HIylL4WqvTsjMK8kcycKBVMFpo58fZ29+7NcFMjJbOCtm5I7wRhuDYqewCCp7vwOsLLwj2b/UB+8yjZIjy60TzOlF3R064LCV4H5Ujah7aYOa6DPcW9S7Y9nuEDk6MGExocQfwAAAAASUVORK5CYII=') !important"></div>
+  
+
+</body></html>

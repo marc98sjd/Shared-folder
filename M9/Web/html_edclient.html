@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="ca_ES">
+	<head>
+		<meta charset="UTF-8">
+		<title>PepLemon</title>
+		<link rel="stylesheet" type="text/css" href="projecte_integrador_comanda.css">
+	</head>
+	<body>
+		<header>PepLemon</header>
+		<br><br><br>
+		<form action="editar_cliente.php" method="get">
+    		<div>
+        		<label for="nif">NIF antic:</label>
+        		<input type="text" id="nif" name="nif" />
+    		</div>
+    		<div>
+        		<label for="nom">Nom:</label>
+        		<input type="text" id="nom" name="nom" />
+    		</div>
+    		<div>
+                <label for="cont">Persona de contacte:</label>
+                <textarea id="cont" name="cont"></textarea>
+            </div> 
+            <div>
+                <label for="telefon">Telefon:</label>
+                <textarea id="telefon" name="telefon"></textarea>
+            </div>
+            <div>
+                <label for="adre">Adreça:</label>
+                <textarea id="adre" name="adre"></textarea>
+            </div>
+    		<div>
+        		<label for="magatzem">ID magatzem proper:</label>
+        		<textarea id="magatzem" name="magatzem"></textarea>
+    		</div>
+    		<div class="button">
+        		<button id="separar" type="submit">Editar client</button>
+        		<button type="reset">Cancelar</button>
+    		</div>
+		</form>
+        <br>
+        <a href="consulta_clientes.php"><p>hola</p></a>
+		<a id="boton_inicio" href="html_projecteintegradoe.html"><button>Inici</button></a>

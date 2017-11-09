@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>SafeFrame Container</title>
+  </head>
+  <body topmargin="0" marginwidth="0" marginheight="0" leftmargin="0">
+    <script>
+(function(){var b=this;var f=String.prototype.trim?function(a){return a.trim()}:function(a){return a.replace(/^[\s\xa0]+|[\s\xa0]+$/g,"")},g=function(a,c){return a<c?-1:a>c?1:0};var k;a:{var l=b.navigator;if(l){var m=l.userAgent;if(m){k=m;break a}}k=""};var ba=function(a,c){var h=aa;return Object.prototype.hasOwnProperty.call(h,a)?h[a]:h[a]=c(a)};var ca=-1!=k.indexOf("Opera"),n=-1!=k.indexOf("Trident")||-1!=k.indexOf("MSIE"),da=-1!=k.indexOf("Edge"),p=-1!=k.indexOf("Gecko")&&!(-1!=k.toLowerCase().indexOf("webkit")&&-1==k.indexOf("Edge"))&&!(-1!=k.indexOf("Trident")||-1!=k.indexOf("MSIE"))&&-1==k.indexOf("Edge"),q=-1!=k.toLowerCase().indexOf("webkit")&&-1==k.indexOf("Edge"),t=function(){var a=b.document;return a?a.documentMode:void 0},u;a:{var v="",w=function(){var a=k;if(p)return/rv\:([^\);]+)(\)|;)/.exec(a);if(da)return/Edge\/([\d\.]+)/.exec(a);if(n)return/\b(?:MSIE|rv)[: ]([^\);]+)(\)|;)/.exec(a);if(q)return/WebKit\/(\S+)/.exec(a);if(ca)return/(?:Version)[ \/]?(\S+)/.exec(a)}();w&&(v=w?w[1]:"");if(n){var x=t();if(null!=x&&x>parseFloat(v)){u=String(x);break a}}u=v}var y=u,aa={},z=function(a){return ba(a,function(){for(var c=0,h=f(String(y)).split("."),S=f(String(a)).split("."),fa=Math.max(h.length,S.length),r=0;0==c&&r<fa;r++){var d=h[r]||"",e=S[r]||"";do{d=/(\d*)(\D*)(.*)/.exec(d)||["","","",""];e=/(\d*)(\D*)(.*)/.exec(e)||["","","",""];if(0==d[0].length&&0==e[0].length)break;c=g(0==d[1].length?0:parseInt(d[1],10),0==e[1].length?0:parseInt(e[1],10))||g(0==d[2].length,0==e[2].length)||g(d[2],e[2]);d=d[3];e=e[3]}while(0==c)}return 0<=c})},A;var B=b.document;A=B&&n?t()||("CSS1Compat"==B.compatMode?parseInt(y,10):5):void 0;var C;if(!(C=!p&&!n)){var D;if(D=n)D=9<=Number(A);C=D}C||p&&z("1.9.1");n&&z("9");var E=p||q||n&&z(11);var ea=/^([^;]+);(\d+);([\s\S]*)$/;try{var F=ea.exec(window.name);if(null===F)throw Error("Cannot parse serialized data");var G=+F[2],H=F[3];if(G>H.length)throw Error("Cannot parse serialized data");var I={b:F[1],content:H.substr(0,G),a:H.substr(G)},J;var K=window.location.hash;if(K){var L=K.match(/[&#]eid=([\d,]+)/);J=L?L[1].split(","):[]}else J=[];var M=J;M.indexOf&&0<=M.indexOf("21060230")||!E||(window.name="");var N=JSON.parse(I.a);N.goog_safeframe_hlt&&(b.goog_safeframe_hlt=N.goog_safeframe_hlt);N._context&&(b.AMP_CONTEXT_DATA=N._context);b.sf_={v:I.b,exp:M,cfg:N};var O=I.content,P=window;if(E){var Q=P.document;Q.open("text/html","replace");Q.write(O);Q.close()}else{var R=O,T;if(T=n&&z(7)&&!z(10)){var U=navigator.userAgent.match(/Trident\/([0-9]+.[0-9]+)/);T=6>(U?parseFloat(U[1]):0)}var V;if(V=T)a:{for(var W=0;W<R.length;++W)if(127<R.charCodeAt(W)){V=!0;break a}V=!1}if(V){for(var X=unescape(encodeURIComponent(R)),ha=Math.floor(X.length/2),Y=[],Z=0;Z<ha;++Z)Y[Z]=String.fromCharCode(256*X.charCodeAt(2*Z+1)+X.charCodeAt(2*Z));1==X.length%2&&(Y[ha]=X.charAt(X.length-1));R=Y.join("")}P.goog_content=R;P.location.replace("javascript:window.goog_content")}}catch(a){};}).call(this);
+    </script><script src="container_data_002/ext.js"></script><script>var viewReq = new Array();function vu(u) {var i=new Image();i.src=u.replace("&amp;","&");viewReq.push(i);}</script><script>vu("https://securepubads.g.doubleclick.net/pcs/view?xai\x3dAKAOjsuNZSMSudRBeVCEw_VQ996xnBq_TVA_t0YaX5-J4GY64qCtS1FF3lxU1oWwrUKpQJA-mSgUDdNZKTyvh9KEwnf_SHyHnT-sJqqVMzFsMUL9RZvg5zDnyyDS6AIA59JSM01DLR_eP6Gvfky_h6eT7y5ZDGggjv4MeS56xZbymBJO4LCwY_H2w0v5oLuyO34XkoifFgQ1WCslI_f5ibuocBl05QMQuhwjfO_giDRkbLGdlgdt-9R-lf_esTdOV8U\x26sig\x3dCg0ArKJSzBcklN3df8nhEAE\x26urlfix\x3d1\x26adurl\x3d")</script>
+
+
+<style>
+h2 {font-family: 'Segoe UI', Arial, sans-serif; font-weight: 400;padding:0 10px; margin: 5px 0;}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+.default:hover {background: #ddd;}
+a {
+    text-decoration: none;
+    color:black;
+}
+#adcontainer {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    background-color:#F1F1F1;
+
+}
+</style>
+
+
+<div id="adcontainer" style="height:90px;overflow:hidden;text-align:center;">
+<a href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstpDu8tYPZoVgQH8Pir3GhQgIYPSYbW-O9B4cBZmgeaJWV-CLr2LMlKM8QQpc3IoeLqKj8-JPHDK9zel1EccqPeXaoXNOcpmvLBkvlZDoJ3AqnMfa9C97cQ6djok7P7uGyhYy0K47IjFPUaUnF1b7zbUVRJCBB1Pu9HGpJReich2ekbQKGPEOXuwW0n1TtiXhmM747kg4K-UETWzwAAW82Dw1LNJMcx3hegef8n1b4DQToOgT_S7jyBeCo&amp;sig=Cg0ArKJSzOIviYHwKsV9EAE&amp;urlfix=1&amp;adurl=https://www.w3schools.com/howto/howto_css_alert_buttons.asp" target="_blank&quot;">
+<h2 style="padding:0 10px; margin: 5px 0;">Learn How To Create CSS Alert Buttons</h2>
+
+<button class="btn success">Success</button>
+<button class="btn info">Info</button>
+<button class="btn warning">Warning</button>
+<button class="btn danger">Danger</button>
+<button class="btn default">Default</button>
+</a>
+</div>
+
+
+<script src="container_data_002/osd_listener.js"></script><script type="text/javascript">osdlfm(-1,'','BwOlUdtUBWtT0LcPkzAa8hI7wCAAAAAAQATgByAEJwAIC4AIA4AQBoAYW0ggGCILhQBAB','',4021173053,true,'la\x3d0\x26alp\x3dxai\x26alh\x3d2534612672\x26',3,'CAASSeRoJBBMaEfTIM3evkkMSbCfNhpWaqks-XX_m3V8WJ5YaDLWtT3hsBl6RyZ2-JwJ6PSHHcD_WVPIlgy84WIEEMdWhDhAL0JLPmk','//pagead2.googlesyndication.com/activeview?avi\x3dBwOlUdtUBWtT0LcPkzAa8hI7wCAAAAAAQATgByAEJwAIC4AIA4AQBoAYW0ggGCILhQBAB\x26cid\x3dCAASSeRoJBBMaEfTIM3evkkMSbCfNhpWaqks-XX_m3V8WJ5YaDLWtT3hsBl6RyZ2-JwJ6PSHHcD_WVPIlgy84WIEEMdWhDhAL0JLPmk');</script><script>if (window.top && window.top.postMessage) {window.top.postMessage('{"googMsgType":"adpnt"}','*');}</script><div style="top:0;left:0;width:728px;height:90px;background:initial !important;position:absolute !important;max-width:100% !important;max-height:100% !important;pointer-events:none !important;image-rendering:-moz-crisp-edges !important;z-index:2147483647;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAWBAMAAACrl3iAAAAABlBMVEUAAAD+AciWmZzWAAAAAnRSTlMAApidrBQAAACESURBVBjTbZABEgUhCELxBt7/tPsDJJv5Ndm6ob0A/o/SwG/WzYDmaTtMdlTUzmR2Trqbkd/OombLrcaK6X1JXCOSjB7tcMNaiJy9z9Wk8PI9o1VV+ZdIw+xqted51Vy1SaLlCmn8w/M+gcuT5QK3ee12UHYbI37jsaMvh1zp10HXcv8AP3QF3sQ2zyAAAAAASUVORK5CYII=') !important"></div>
+  
+
+</body></html>
