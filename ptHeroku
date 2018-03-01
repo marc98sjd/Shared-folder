@@ -1,0 +1,7 @@
+MARC GUERRA EXPÒSITO
+
+url: https://tranquil-wave-19366.herokuapp.com/
+
+git remote -v:
+	heroku	https://git.heroku.com/tranquil-wave-19366.git (fetch)
+	heroku	https://git.heroku.com/tranquil-wave-19366.git (push)
